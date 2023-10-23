@@ -1,0 +1,10 @@
+.custom-image {
+    width: 320px; /* Remplacez 264px par la largeur souhaitée en pixels */
+    height: 320px; /* Remplacez 264px par la hauteur souhaitée en pixels */
+    object-fit: cover; /* Pour ajuster l'image en maintenant son ratio et en coupant l'excès */
+    display: block; /* Assurez-vous que l'image est affichée comme un bloc */
+    margin: auto; /* Centrez l'image horizontalement à l'intérieur de son composant */
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+    margin-top: 20px; /* Marge au-dessus de l'image */
+    margin-bottom: 20px; /* Marge en dessous de l'image */
+  }

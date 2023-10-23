@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="row">
+    <!-- About us -->
+    <div class="col-lg shadow border m-1 custom-col">
+      <div class="text-center">
+        <br />
+
+        <h2 class="custom-heading">A propos de nous</h2>
+
+        <br />
+        <br />
+
+        <img
+          src="../../assets/sachajonasdforrounded.jpg"
+          alt="profile picture"
+          class="rounded-circle custom-img"
+        />
+
+        <br />
+        <br />
+        <br />
+
+        <p class="custom-text">
+          Alexandre et Jonas, nous sommes 2 étudiants à l'école d'ingénieur IMT
+          Mines Albi. Nous nous sommes associés dans le but de fournir des
+          services liés au Machine Learning et au développement web qui sont des
+          sujets qui nous passionnent. A travers ce site que nous avons
+          développé, vous pourrez en apprendre plus sur nous, nos projets et nos
+          compétences.
+        </p>
+      </div>
+    </div>
+    <!-- Project in progress -->
+    <div class="col-lg shadow border m-1 custom-col">
+      <div class="text-center">
+        <h2 class="custom-heading">Projet en cours</h2>
+
+        <hr />
+
+        <h4>{{ featuredProject.name }}</h4>
+
+        <br />
+      </div>
+
+      <carousel>
+        <div *ngFor="let picture of featuredProject.pictures">
+          <slide
+            ><img src="{{ picture }}" alt="slide" class="custom-image"
+          /></slide>
+        </div>
+      </carousel>
+
+      <br />
+
+      <p class="mt-2">{{ featuredProject.summary }}</p>
+      <p>Consultez la section portfolio pour en savoir plus !</p>
+    </div>
+  </div>
+</div>

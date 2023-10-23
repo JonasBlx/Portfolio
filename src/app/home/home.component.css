@@ -1,0 +1,38 @@
+/* Pour l'ombre plus prononcée autour de l'image */
+.custom-shadow {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Pour l'image responsive */
+  .custom-img {
+    width: 100%;
+    max-width: 264px;  /* Taille maximale augmentée pour x1.5 */
+    height: 264px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);  /* ombre plus prononcée */
+  }
+  
+  /* Pour l'espacement du titre et du texte */
+  
+  /* Pour l'espacement dans la colonne */
+  .custom-col {
+    padding: 20px;
+  }
+  
+  /* Pour les séparateurs, si vous décidez de les utiliser plus tard */
+  .custom-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+
+  .custom-image {
+    width: 264px; /* Remplacez 264px par la largeur souhaitée en pixels */
+    height: 264px; /* Remplacez 264px par la hauteur souhaitée en pixels */
+    object-fit: cover; /* Pour ajuster l'image en maintenant son ratio et en coupant l'excès */
+    display: block; /* Assurez-vous que l'image est affichée comme un bloc */
+    margin: auto; /* Centrez l'image horizontalement à l'intérieur de son composant */
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);
+    margin-top: 20px; /* Marge au-dessus de l'image */
+    margin-bottom: 20px; /* Marge en dessous de l'image */
+  }

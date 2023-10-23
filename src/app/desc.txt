@@ -1,0 +1,24 @@
+Création d'un logiciel de bureau implémentant des modèles physiques complexes en python (Qt)
+Évitement collision 3D
+
+#2596be
+rgb(37, 150, 190)
+
+<h2 class="custom-heading">Projet en cours</h2>
+        <div class="custom-divider"></div>
+        <img
+          src="../../assets/minecraft_house.jpg"
+          alt="minecraft_house"
+          class="img-fluid rounded shadow custom-shadow"
+        />
+
+        <h5 class="custom-subheading">
+          Classification de structures minecraft :
+        </h5>
+        <p>
+          Nous sommes tout les 2 passionnés par le jeu Minecraft. L'objectif de
+          ce projet est d'exploiter les données de différentes structures
+          minecraft afin de les classifier parmi une liste de structures
+          établie. Pour nous, ce projet fait office d'étude préliminaire vers un
+          projet plus ambitieux.
+        </p>
